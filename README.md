@@ -44,7 +44,7 @@ python xml2paddle.py
 # the anotation format of the PaddleOCR
 
 Every line is a json code:
-```json
+```
 {
    'filename': PMC5755158_010_01.png,                    # image name
    'split': ’train‘,                                     # train set or test set or val set

@@ -46,15 +46,15 @@ python xml2paddle.py
 Every line is a json code:
 ```json
 {
-   'filename': PMC5755158_010_01.png,                            # image name
+   'filename': PMC5755158_010_01.png,                    # image name
    'split': ’train‘,                                     # train set or test set or val set
-   'imgid': 0,                                         # The index of the image 
+   'imgid': 0,                                           # The index of the image 
    'html': {
-     'structure': {'tokens': ['<thead>', '<tr>', '<td>', ...]},             # Html structure of tabel
+     'structure': {'tokens': ['<thead>', '<tr>', '<td>', ...]},               # Html structure of tabel
      'cells': [
        {
          'tokens': ['P', 'a', 'd', 'd', 'l', 'e', 'P', 'a', 'd', 'd', 'l', 'e'],     # single text of the sell in the table
-         'bbox': [x0, y0, x1, y1]                              # bbox about text, support xywh,xyxy, xyxyxyxy
+         'bbox': [x0, y0, x1, y1]                                              # bbox about text, support xywh,xyxy, xyxyxyxy
        }
      ]
    }
